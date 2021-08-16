@@ -1,0 +1,317 @@
+.btn {
+    background-color: #1befb2 !important;
+    color: black !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.container-fluid {
+    padding: 5px 8% 0px 8% !important;
+}
+
+.head img {
+    margin: 10px 0px 0px -30px;
+}
+
+nav {
+    margin-top: 8px;
+}
+
+.navbar button {
+    font-size: 1.5em;
+    width: 100%;
+    color: #0274be;
+    background-color: white;
+    border: none;
+    display: none;
+}
+
+.navLinksList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navLinksList li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+
+.navLinksList li {
+    padding: 0 1em 1em 1em;
+    font-weight: bold;
+}
+
+#navMenu {
+    margin-left: 25%;
+}
+
+.navLinksList li a:hover {
+    color: darkgray;
+}
+
+@media (max-width :930px) {
+
+    .navbar button {
+        display: block;
+    }
+
+    #navMenu {
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .navLinksList {
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+
+    .navLinksList li a {
+        padding: 1em 0 0 0;
+    }
+
+    .navLinksList li:last-of-type {
+        padding-bottom: 1em;
+        /* background-color: red; */
+    }
+}
+
+/* PC */
+@media (min-width :992px) {
+    .cards-row .col:nth-child(even) {
+        margin: 0px 2%;
+    }
+
+    .cards-row .col {
+        height: 461px;
+    }
+
+    .thumbnail-row .col div img {
+        width: 140px !important;
+    }
+
+    #serv-4 {
+        width: 75%;
+    }
+    
+    .serv-thumbails {
+        margin-bottom: 4% !important;
+    }
+    
+    .serv-thumbails .col .card{
+        padding: 5% 2% !important;
+    }
+
+    .black-container {
+        padding: 3% 27% !important;
+    }
+
+    .black-container .row .col {
+        margin: 20px;
+        width: 160px;
+        height: 182px;
+        padding: 3% 5%;
+    }
+
+    #brown-card .card-body button {
+        width: 195 px !important;
+        height: 49px;
+        margin-top: 20px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: 2%;
+    }
+
+    #white-row .row {
+        width: 80%;
+    }
+
+    #white-row .row .col img {
+        width: 227px;
+    }
+}
+
+
+/* mob */
+@media (max-width :991px) {
+    .row .col:nth-child(even) {
+        margin: 2% 0;
+    }
+
+    .black-container div {
+        border-bottom: 1px solid silver;
+    }
+
+    #brown-card .card-body button {
+        font-size: x-small;
+        height: 49px;
+        margin-top: 20px;
+        margin-right: 2%;
+    }
+
+    #brown-card .card-body div {
+        font-size: smaller;
+        margin-top: 0px !important;
+    }
+
+    .serv-thumbails {
+        margin-bottom: 2% !important;
+    }
+    .serv-thumbails .col .card{
+        padding: 2% 5% !important;
+        margin-bottom: 7% !important;
+    }
+    .serv-thumbails .col .card img{
+        height: 56px;
+    }
+
+    #gr div {
+        width: 100% !important;
+    }
+}
+
+
+.card-title {
+    font-size: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.cards-row .btn {
+    bottom: 0 !important;
+    height: 65px !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+}
+
+.cards-row {
+    margin-top: 20px !important;
+}
+
+.cards-row .card {
+    border-radius: 20px !important;
+}
+
+.card-body button {
+    border-radius: 10px !important;
+
+}
+
+.thumbnail-row .col div h6 {
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.serv-thumbails .col .card {
+    border-radius: 10px !important;
+    box-shadow: 1px 1px 3px silver;
+    /* padding: 5% 2% !important; */
+}
+
+
+
+.black-container {
+    background-color: black;
+}
+
+.black-container h2 {
+    color: #1befb2;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2% !important;
+}
+
+.black-container p {
+    text-align: center;
+}
+
+.black-container .row .col {
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.accordion-button {
+    border-radius: 10px !important;
+    border: 1px solid rgb(65, 64, 64) !important;
+}
+
+
+.accordion-item {
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+#services-Accordion {
+    margin-bottom: 5%;
+
+}
+
+#brown-card {
+    width: 1000px;
+    height: 85px;
+    padding: 0%;
+    background-color: #3a3a3a;
+    color: white;
+    font-size: smaller;
+    border-radius: 10px;
+}
+
+#brown-card .card-body {
+    padding: 0px 1%;
+}
+
+#brown-card .card-body div {
+    margin-top: 18px;
+}
+
+#brown-card .card-body div p {
+    margin-top: 0 !important;
+    padding: 0;
+}
+
+
+
+.black-container2 {
+    background-color: black;
+    padding: 5% 12% !important;
+}
+
+.black-container2 h1 {
+    color: #1befb2;
+    font-weight: bold;
+}
+
+.black-container2 .green-cards .card {
+    background-color: #1befb2;
+    width: 323px;
+    height: 224px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.black-container2 .row .card-body {
+    font-size: smaller;
+}
+
+.black-container2 .row .card-body i {
+    font-weight: 500;
+}
+
+#white-row {
+    background-color: #f2f2f2;
+    padding: 2% 0;
+}
+
+#gr div {
+    padding: 0 5% !important;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+
+.testDiv {
+}
